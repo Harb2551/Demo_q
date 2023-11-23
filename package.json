@@ -1,0 +1,16 @@
+{
+  "name": "quiz-app",
+  "version": "1.0.0",
+  "description": "Simple quiz application",
+  "main": "index.html",
+  "scripts": {
+    "start": "echo 'No server needed for a static site.'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "your-repo-url"
+  },
+  "keywords": ["quiz", "frontend"],
+  "author": "Your Name",
+  "license": "MIT"
+}
