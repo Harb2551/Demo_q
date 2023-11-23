@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ADD8E6; /* Background color for the entire page */
+  }
+  
+  #quiz-container {
+    max-width: 600px;
+    margin: 0px auto;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center; /* Center align text */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #3498db; /* Blue background color for the quiz container */
+    color: #fff; /* Text color for the quiz container */
+  }
+  
+  #question-container {
+    font-size: 24px; /* Larger font size for questions */
+    margin-bottom: 20px; /* Add some space below the question */
+  }
+  
+  button {
+    padding: 15px; /* Increase button padding */
+    cursor: pointer;
+    border: none;
+    border-radius: 8px; /* Increase button border radius */
+    font-size: 28px; /* Increase font size inside buttons */
+  }
+  
+  #next-btn,
+  #submit-btn {
+    display: block;
+    margin: 15px auto; /* Center align buttons */
+  }
+  
+  #next-btn {
+    background-color: #2ecc71; /* Green button color */
+    color: #fff; /* Text color for the button */
+  }
+  
+  #next-btn:hover {
+    background-color: #27ae60; /* Darker green on hover */
+  }
+  
+  #submit-btn {
+    background-color: #e74c3c; /* Red button color */
+    color: #fff; /* Text color for the button */
+  }
+  
+  #submit-btn:hover {
+    background-color: #c0392b; /* Darker red on hover */
+  }
+  
+  #score-container {
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: black; /* Red text color for the score */
+  }
+  
+  .option-container {
+    display: flex;
+    flex-direction: column; /* Adjust to stack options vertically */
+    align-items: center; /* Center align options */
+  }
+  
+  .option-label {
+    box-sizing: border-box;
+    width: 50px; /* Set a fixed width for labels */
+    height: 50px; /* Make the label a perfect circle */
+    line-height: 50px; /* Center the text vertically */
+    padding: 10px;
+    font-weight: bold;
+    color: #fff; /* Red text color for option labels */
+    font-size: 24px; /* Adjust font size for labels */
+    border: 1px solid #ddd; /* Thin border for each label */
+    border-radius: 50%; /* Circular border */
+    margin-right: 10px;
+  }
+  
+  .quiz-option {
+    box-sizing: border-box;
+    flex: 1;
+    width: calc(100% - 62px); /* Adjust the value as needed */
+    padding: 15px;
+    text-align: left;
+    background-color: #3498db; /* Blue background color for options */
+    color: #fff; /* Text color for options */
+    border: 1px solid #ddd; /* Thin border for each option */
+    border-radius: 8px; /* Increase border radius for options */
+    margin-top: 10px;
+    font-size: 18px; /* Adjust font size for options */
+  }
+  
+  .quiz-option:hover {
+    background-color: #2980b9; /* Darker blue on hover for options */
+  }
+  
+  #timer {
+    font-size: 50px; /* Increase font size for the timer */
+    margin: 0px auto; /* Center the timer */
+    margin-top: 20px;
+    width: 80px; /* Set a fixed width for the timer */
+    height: 80px; /* Make the timer a perfect circle */
+    line-height: 100px; /* Center the text vertically */
+    /* padding: 10px; */
+    text-align: center;
+    background-color: #3498db; /* Blue background color for the timer */
+    color: #fff; /* Text color for the timer */
+    border-top-right-radius: 10%; /* Circular border */
+    border-top-left-radius: 10%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .quiz-option.selected {
+    background-color: #2c3e50; /* Change background color for selected option */
+    color: #fff; /* Change text color for selected option */
+  }
+  
